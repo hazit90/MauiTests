@@ -9,3 +9,6 @@ The app is also tested on macOs and works as expected.
 # Project: ResizableRectGraphics
 The app displays a Rectangle on the screen. The rectangle can be resized by the user either by using the mouse or using touch. Simply touch the edge of the rectangle and start moving it around. The project also implements the MVVM pattern.
 
+# Project: PaintOnCanvas
+An app that allows the user to draw on screen with mouse or touch input. Currently only one path can be drawn inside a 280x280 canvas.
+
