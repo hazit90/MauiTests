@@ -21,11 +21,11 @@ namespace ResizableRectGraphics.ViewModel
         private RectF _rectangle;
         private bool _isResizing;
         private int _touchpointMargin = 50;
+        private IDrawable _rectangleDrawable;
 
         public ICommand StartInteractionCommand { get; }
         public ICommand DragInteractionCommand { get; }
 
-        private IDrawable _rectangleDrawable;
         public IDrawable RectangleDrawable
         {
             get => _rectangleDrawable;

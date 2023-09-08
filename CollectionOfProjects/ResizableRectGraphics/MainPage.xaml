@@ -11,13 +11,14 @@
         <VerticalStackLayout
             Spacing="25"
             Padding="30,0"
-            VerticalOptions="Center">
+            VerticalOptions="Center"
+            BackgroundColor="Yellow" 
+            >
 
             <GraphicsView
                 x:Name="canvasView"
                 WidthRequest="700"
                 HeightRequest="700"
-                BackgroundColor="Yellow" 
                 Drawable="{Binding RectangleDrawable}"
                 StartInteraction="OnStartInteraction"
                 DragInteraction="OnDragInteraction"
